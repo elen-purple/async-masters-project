@@ -1,0 +1,97 @@
+.products {
+    width: 89%;
+
+
+    &__list {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        gap: 20px;
+        width: 350px;
+        height: 330px;
+        border-radius: 20px;
+        background: #FAFAFA;
+        flex-basis: calc((100% - 20px) / 5);
+    }
+
+    // &__item:nth-child(3),
+    // &__item:nth-child(6),
+    // &__item:nth-child(9)  {
+    //     gap: 0;
+    // }
+
+
+    &__img {
+        width: 255px;
+        height: 178px;
+    }
+
+    &__title {
+        color: #010101;
+        font-family: "Neue Montreal";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+
+    }
+
+    &__category {
+        color: rgba(1, 1, 1, 0.30);
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    &__category span {
+        color: #010101;
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    &__size {
+        color: rgba(1, 1, 1, 0.30);
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    &__size span {
+        color: #010101;
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    &__popularity {
+        color: rgba(1, 1, 1, 0.30);
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        
+    }
+
+    &__popularity span {
+        color: #010101;
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    &__price {
+        color: #010101;
+        font-family: "Neue Montreal";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+}
