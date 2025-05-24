@@ -105,3 +105,37 @@
     bottom: 0;
     right: 0;
 }
+
+@media screen and (max-width: 480px) {
+    .modal-window {
+        width: 335px;
+    }
+
+    .modal-box {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 150px;
+        width: 330px;
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        bottom: 100px;
+    }
+
+    .modal-subtitle {
+        width: 248px;
+    }
+
+    .modal-title {
+        width: 245px;
+    }
+
+    .modal-img {
+        width: 335px;
+        height: 144px;
+        flex-shrink: 0;
+    }
+}
+

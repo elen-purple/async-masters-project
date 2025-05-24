@@ -97,3 +97,40 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+    .email {
+
+        @media screen and (max-width: 480px) {
+            &__modal-window {
+                width: 335px;
+                height: 276px;
+                flex-shrink: 0;
+
+            }
+
+
+            &__box-modal {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                height: 276px;
+                width: 330px;
+                position: absolute;
+                top: 100px;
+                left: 5px;
+                bottom: 100px;
+            }
+
+            &__title-modal {
+                width: 245px;
+            }
+
+            &__subtitle-modal {
+                width: 248px;
+            }
+
+        }
+    }
+}
